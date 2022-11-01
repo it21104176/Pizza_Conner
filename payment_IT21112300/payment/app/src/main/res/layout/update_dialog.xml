@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:padding="10dp"
+        android:text="Edit Option "
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/updateTextcardname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7a7a"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Card Name" />
+
+
+    <EditText
+        android:id="@+id/updateTextcardno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7a7a"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Card No" />
+
+    <EditText
+        android:id="@+id/updateTextexpno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7a7a"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Exp. Date" />
+
+    <EditText
+        android:id="@+id/updateTextcvvcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7a7a"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter CVV Code" />
+
+    <EditText
+        android:id="@+id/updateTextpizzaname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7a7a"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:textColor="#BF000000"
+        android:hint="Enter Pizza Name" />
+
+    <EditText
+        android:id="@+id/updateTexttotalamout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7a7a"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:textColor="#BF000000"
+        android:hint="Enter Total Amount" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonDeletePayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#ff4d4d"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/buttonUpdatePayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#ff4d4d"
+            android:text="Update" />
+    </LinearLayout>
+</LinearLayout>
