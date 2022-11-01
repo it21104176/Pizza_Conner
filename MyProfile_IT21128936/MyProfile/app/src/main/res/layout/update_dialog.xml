@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:padding="10dp"
+        android:text="Edit Option "
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/updateTextname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77D8D8D8"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter name" />
+
+
+    <EditText
+        android:id="@+id/updateTextaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77D8D8D8"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Adderss" />
+
+    <EditText
+        android:id="@+id/updateTextcity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77D8D8D8"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter City" />
+
+    <EditText
+        android:id="@+id/updateTextmobileno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77D8D8D8"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter mobile Number" />
+
+    <EditText
+        android:id="@+id/updateTextemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77D8D8D8"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/updateTextzipcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#77D8D8D8"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Enter ZipCode" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonDeleteProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#ff4d4d"
+            android:text="Delete" />
+
+        <Button
+            android:id="@+id/buttonUpdateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:backgroundTint="#ff4d4d"
+            android:text="Update" />
+    </LinearLayout>
+</LinearLayout>
